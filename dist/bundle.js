@@ -23431,8 +23431,8 @@ window.onload = function () {
         alert('Download Model Error');
     };
 
-    var modelFile = '/res/miku_v2.pmd';
-    var vmdFiles = ['/res/wavefile_v2.vmd'];
+    var modelFile = 'miku_v2.pmd';
+    var vmdFiles = ['wavefile_v2.vmd'];
 
     var helper = new THREE.MMDHelper();
     var loader = new THREE.MMDLoader();
